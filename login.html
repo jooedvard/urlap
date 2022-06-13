@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.js"
+      integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+      crossorigin="anonymous"
+    ></script>
+    <script src="login.js"></script>
+    <link rel="stylesheet" href="login.css" />
+    <title>ShareYourCar</title>
+  </head>
+  <body>
+    <div class="forms">
+      <div class="tabs">
+        <span class="register tab">Register</span>
+        <span class="login tab">Login</span>
+      </div>
+      <div class="tab-register">
+        <h2>Register to ShareYourCar</h2>
+        <p>
+          Join to ShareYourCare you will get the best recommendation for rent
+          car in near of you.
+        </p>
+        <form>
+          <div class="field">
+            <label for="username">Username</label>
+            <input type="text" name="username" required />
+          </div>
+          <div class="field">
+            <label for="email">Email</label>
+            <input type="email" name="email" required />
+          </div>
+          <div class="field">
+            <label for="password">Password</label>
+            <input type="password" name="password" placeholder="********" />
+          </div>
+          <input type="submit" value="Register" id="register" />
+          <div class="fb-google">
+            <div class="img-container"><img src="icons/google.png" /></div>
+            <div class="img-container"><img src="icons/facebook.png" /></div>
+          </div>
+        </form>
+      </div>
+      <div class="tab-login">
+        <h2>Welcome back at ShareYourCar</h2>
+        <p>Good to see you again!</p>
+        <form>
+          <div class="field">
+            <label for="username">Username</label>
+            <input type="text" name="username" required />
+          </div>
+          <div class="field">
+            <label for="password">Password</label>
+            <input type="password" name="password" placeholder="********" />
+          </div>
+          <input type="submit" value="Login" id="login" />
+          <div class="fb-google">
+            <div class="img-container"><img src="icons/google.png" /></div>
+            <div class="img-container"><img src="icons/facebook.png" /></div>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="cover-image">
+      <img src="images/car.jpg" />
+    </div>
+  </body>
+</html>
